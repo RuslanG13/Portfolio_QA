@@ -1,0 +1,2902 @@
+﻿"ID","Title","Assigned To","Automation Type","Case ID","Comment","Defects","Elapsed","Estimate","Expected Result","Forecast","Goals","In Progress","Mission","Plan","Plan ID","Preconditions","Priority","References","Run","Run Configuration","Run ID","Section","Section Depth","Section Description","Section Hierarchy","Status","Steps","Steps","Steps","Steps (Actual Result)","Steps (Expected Result)","Steps (Expected Result)","Steps (Status)","Steps (Step)","Steps (Step)","Template","Tested By","Tested On","Type","Version"
+"T1","Verify that the user can go to the ""Liqpay"" page after sending the order checkout form with valid data","Ruslan Gudenko"," None","C2","","","","300s","","300s","","","","","","1) The order checkout page is open 
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter a valid Name in the ""Name"" field, e.g. Руслан
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field, e.g. ruslan.gudenko13@ukr.net
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380985678875
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> by default in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""LiqPay"" payment page","1. Enter a valid Name in the ""Name"" field, e.g. Руслан
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field, e.g. ruslan.gudenko13@ukr.net
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380985678875
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> by default in the ""Payment method"" section of the order checkout form
+---
+The radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""LiqPay"" payment page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""LiqPay"" payment page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""LiqPay"" payment page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter a valid Name in the ""Name"" field, e.g. Руслан
+2. Enter a valid Email in the ""Email"" field, e.g. ruslan.gudenko13@ukr.net
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380985678875
+4. Leave the radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> by default in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter a valid Name in the ""Name"" field, e.g. Руслан
+2. Enter a valid Email in the ""Email"" field, e.g. ruslan.gudenko13@ukr.net
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380985678875
+4. Leave the radio button <сredit card (Visa, Mastercard) or Privat24 via LiqPay> by default in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","05.02.2021 22:59","Functional",""
+"T2","Verify that the user can go to the ""WayForPay"" page after sending the order checkout form with valid data","Ruslan Gudenko"," None","C3","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter a valid Name in the ""Name"" field, e.g. Ruslan Gudenko
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field, e.g. rusan.gudenko13@gmail.com
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380667890556
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Switch the radio button  on the <сredit card (Visa, Mastercard) or by installments via WayForPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button on the <сredit card (Visa, Mastercard) or by installments via WayForPay> is selected
+5. Click on the ""Order checkout"" button
+Expected Result:
+The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""WayForPay"" payment page","1. Enter a valid Name in the ""Name"" field, e.g. Ruslan Gudenko
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field, e.g. rusan.gudenko13@gmail.com
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380667890556
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Switch the radio button  on the <сredit card (Visa, Mastercard) or by installments via WayForPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button on the <сredit card (Visa, Mastercard) or by installments via WayForPay> is selected
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""WayForPay"" payment page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button on the <сredit card (Visa, Mastercard) or by installments via WayForPay> is selected
+5. The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""WayForPay"" payment page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button on the <сredit card (Visa, Mastercard) or by installments via WayForPay> is selected
+5. The button ""Order checkout"" is clicked. A success message appears. User redirects to the ""WayForPay"" payment page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter a valid Name in the ""Name"" field, e.g. Ruslan Gudenko
+2. Enter a valid Email in the ""Email"" field, e.g. rusan.gudenko13@gmail.com
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380667890556
+4. Switch the radio button  on the <сredit card (Visa, Mastercard) or by installments via WayForPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter a valid Name in the ""Name"" field, e.g. Ruslan Gudenko
+2. Enter a valid Email in the ""Email"" field, e.g. rusan.gudenko13@gmail.com
+3. Enter a valid Phone number in the ""Phone"" field, e.g. +380667890556
+4. Switch the radio button  on the <сredit card (Visa, Mastercard) or by installments via WayForPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","05.02.2021 23:01","Functional",""
+"T3","Verify that error message  appears with valid:Name, Email and invalid Phone","Ruslan Gudenko"," None","C4","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Failed","","1. Enter a valid Name in the ""Name"" field
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. +309987767777
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button 
+Expected Result:
+An error message appears. The  ""Phone"" field is highlighted in red, additional text error is displayed under the ""Phone"" field. The user remains on the order checkout page","1. Enter a valid Name in the ""Name"" field
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. +309987767777
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button 
+---
+An error message appears. The  ""Phone"" field is highlighted in red, additional text error is displayed under the ""Phone"" field. The user remains on the order checkout page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The  ""Phone"" field is highlighted in red, additional text error is displayed under the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The  ""Phone"" field is highlighted in red, additional text error is displayed under the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed","1. Enter a valid Name in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. +309987767777
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter a valid Name in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. +309987767777
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","05.02.2021 23:04","Functional",""
+"T4","Verify that error message appears  with valid:Name, Phone and invalid Email","Ruslan Gudenko"," None","C5","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter a valid Name in the ""Name"" field
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13.ure.net 
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+	
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+	
+An error message appears. The ""Email"" field is highlighted in red, additional text error is displayed under the ""Email"" field. The user remains on the order checkout page","1. Enter a valid Name in the ""Name"" field
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13.ure.net 
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter a valid Phone number in the ""Phone"" field
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+	
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+	
+An error message appears. The ""Email"" field is highlighted in red, additional text error is displayed under the ""Email"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. 	
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+An error message appears. The ""Email"" field is highlighted in red, additional text error is displayed under the ""Email"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. 	
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+An error message appears. The ""Email"" field is highlighted in red, additional text error is displayed under the ""Email"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter a valid Name in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13.ure.net 
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter a valid Name in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13.ure.net 
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","05.02.2021 23:49","Functional",""
+"T5","Verify that error message appears  with valid Name and  invalid: Email, Phone","Ruslan Gudenko"," None","C6","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Failed","","1. Enter a valid Name in the ""Name"" field
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter a valid Name in the ""Name"" field
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed","1. Enter a valid Name in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter a valid Name in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:16","Functional",""
+"T5","Verify that error message appears  with valid Name and  invalid: Email, Phone","Ruslan Gudenko"," None","C6","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter a valid Name in the ""Name"" field
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter a valid Name in the ""Name"" field
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Email"" field and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter a valid Name in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter a valid Name in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslan.gudenko13@@ukr.net
+3. Enter an invalid Phone number in the ""Phone"" field, e.g 380988543564 
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","05.02.2021 23:51","Functional",""
+"T6","Verify that error message appears with valid Email and  invalid: Name,Phone","Ruslan Gudenko"," None","C7","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. 	
+Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:17","Functional",""
+"T6","Verify that error message appears with valid Email and  invalid: Name,Phone","Ruslan Gudenko"," None","C7","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. 	
+Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:15","Functional",""
+"T6","Verify that error message appears with valid Email and  invalid: Name,Phone","Ruslan Gudenko"," None","C7","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Failed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. 	
+Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:13","Functional",""
+"T6","Verify that error message appears with valid Email and  invalid: Name,Phone","Ruslan Gudenko"," None","C7","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. 	
+Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:11","Functional",""
+"T6","Verify that error message appears with valid Email and  invalid: Name,Phone","Ruslan Gudenko"," None","C7","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Untested
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Untested
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Untested
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Untested
+5. 	
+Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Untested","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:10","Functional",""
+"T6","Verify that error message appears with valid Email and  invalid: Name,Phone","Ruslan Gudenko"," None","C7","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Failed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Untested
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Untested
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Untested
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Untested
+5. 	
+Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Passed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:10","Functional",""
+"T6","Verify that error message appears with valid Email and  invalid: Name,Phone","Ruslan Gudenko"," None","C7","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. 	
+Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter a valid Email in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g. 09877treewr
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. 	
+Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:09","Functional",""
+"T7","Verify that error message appears with valid: Email,Phone and invalid Name","Ruslan Gudenko"," None","C8","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket.
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter an invalid Name in the ""Name"" field, e.g. leave the empty field
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter a valid Email in the ""Email"" field
+Expected Result:
+	
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The field ""Name"" is highlighted in red, additional text error is displayed under the ""Name"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. leave the empty field
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter a valid Email in the ""Email"" field
+---
+	
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter a valid Phone number in the ""Phone"" field
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+An error message appears. The field ""Name"" is highlighted in red, additional text error is displayed under the ""Name"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. 	
+The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The field ""Name"" is highlighted in red, additional text error is displayed under the ""Name"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. 	
+The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The field ""Name"" is highlighted in red, additional text error is displayed under the ""Name"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter an invalid Name in the ""Name"" field, e.g. leave the empty field
+2. Enter a valid Email in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. leave the empty field
+2. Enter a valid Email in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:11","Functional",""
+"T8","Verify that error message appears with invalid: Name,Email and Phone","Ruslan Gudenko"," None","C9","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Failed","","1. 	
+Enter an invalid Name in the ""Name"" field, e.g. leave an empty field
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslangudenko13@ukrnet
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter an invalid Phone number in the ""Phone"" field, e.g leave an empty field
+Expected Result:
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+An error message appears. The ""Name"" field and the ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field, and the ""Phone"" field. The user remains on the order checkout page","1. 	
+Enter an invalid Name in the ""Name"" field, e.g. leave an empty field
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslangudenko13@ukrnet
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter an invalid Phone number in the ""Phone"" field, e.g leave an empty field
+---
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+An error message appears. The ""Name"" field and the ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field and the ""Phone"". The user remains on the order checkout page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field and the ""Phone"". The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. An error message appears. The ""Name"" field and the ""Email"" field and the ""Phone"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field, and the ""Phone"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed","1. 	
+Enter an invalid Name in the ""Name"" field, e.g. leave an empty field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslangudenko13@ukrnet
+3. Enter an invalid Phone number in the ""Phone"" field, e.g leave an empty field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. 	
+Enter an invalid Name in the ""Name"" field, e.g. leave an empty field
+2. Enter an invalid Email in the ""Email"" field, e.g. ruslangudenko13@ukrnet
+3. Enter an invalid Phone number in the ""Phone"" field, e.g leave an empty field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:13","Functional",""
+"T9","Verify that error message appears  with valid Phone and invalid: Name,Email","Ruslan Gudenko"," None","C10","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter a valid Phone number in the ""Phone"" field
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:43","Functional",""
+"T9","Verify that error message appears  with valid Phone and invalid: Name,Email","Ruslan Gudenko"," None","C10","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket
+Test design technique: decision table","High","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Failed","","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+Expected Result:
+The name is entered. The Name is displayed in the ""Name"" field
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+Expected Result:
+The Email is entered. The Email is displayed in the ""Email"" field
+3. Enter a valid Phone number in the ""Phone"" field
+Expected Result:
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+Expected Result:
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button
+Expected Result:
+	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+---
+The name is entered. The Name is displayed in the ""Name"" field
+---
+Passed
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+---
+The Email is entered. The Email is displayed in the ""Email"" field
+---
+Passed
+3. Enter a valid Phone number in the ""Phone"" field
+---
+	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+---
+Passed
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+---
+The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+---
+Passed
+5. Click on the ""Order checkout"" button
+---
+	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5.","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page","1. The name is entered. The Name is displayed in the ""Name"" field
+2. The Email is entered. The Email is displayed in the ""Email"" field
+3. 	
+The Phone number is entered. The Phone number is displayed in the ""Phone"" field
+4. The radio button <credit card (Visa, Mastercard) or Privat24 via LiqPay> is selected in the ""Payment method"" section of the order checkout form
+5. 	
+An error message appears. The ""Name"" field and the ""Email"" field are highlighted in red, additional text errors are displayed under the ""Name"" field and the ""Email"" field. The user remains on the order checkout page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","1. Enter an invalid Name in the ""Name"" field, e.g. enter the 256th character
+2. Enter an invalid Email in the ""Email"" field, e.g. enter an email with a a hyphen (-) in domain-part at the ending
+3. Enter a valid Phone number in the ""Phone"" field
+4. Leave the radio button by default on the <credit card (Visa, Mastercard) or Privat24 via LiqPay> in the ""Payment method"" section of the order checkout form
+5. Click on the ""Order checkout"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:41","Functional",""
+"T24","Verify that the English language set by default on the order checkout page","Ruslan Gudenko"," None","C25","","","","300s","","300s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket","Low","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Failed","","1. Pay attention to the screen. Make sure that all the information messages and names of the elements are in English
+Expected Result:
+All the information messages and names of the elements should be in English","1. Pay attention to the screen. Make sure that all the description of items and names of the elements are in English
+---
+All the description of items and names of the elements should be in English
+---
+Failed","1.","1. All the description of items and names of the elements should be in English","1. All the information messages and names of the elements should be in English","1. Failed","1. Pay attention to the screen. Make sure that all the description of items and names of the elements are in English","1. Pay attention to the screen. Make sure that all the information messages and names of the elements are in English","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:43","Other",""
+"T25","Verify that the order checkout page is close by clicking on ""cross"" button","Ruslan Gudenko"," None","C26","","","","120s","","120s","","","","","","1) The order checkout page is open
+2) At least one item is present in the basket","Medium","","Canny Store (Purchase process with payments)","","R1","Order checkout form","0","","Order checkout form","Passed","","1. Click on the ""cross"" button on the right upper corner of the order checkout page
+Expected Result:
+The order checkout page is successfully closed. User return to the main page","1. Click on the ""cross"" button on the right upper corner of the order checkout page
+---
+The order checkout page is successfully closed. User return to the main page
+---
+Passed","1.","1. The order checkout page is successfully closed. User return to the main page","1. The order checkout page is successfully closed. User return to the main page","1. Passed","1. Click on the ""cross"" button on the right upper corner of the order checkout page","1. Click on the ""cross"" button on the right upper corner of the order checkout page","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:49","Functional",""
+"T22","Verify that the  price for items on Liqpay payment page matches with price on the order checkout page","Ruslan Gudenko"," None","C23","","","","300s","","300s","","","","","","1) Liqpay payment page is opened
+","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Passed","","1. Compare the price on the Liqpay payment page with the specified price on the order checkout page
+Expected Result:
+The price on the Liqpay page and order checkout page are matched","1. Compare the price on the Liqpay payment page with the specified price on the order checkout page
+---
+The price on the Liqpay page and order checkout page are matched
+---
+Passed","1.","1. The price on the Liqpay page and order checkout page are matched","1. The price on the Liqpay page and order checkout page are matched","1. Passed","1. Compare the price on the Liqpay payment page with the specified price on the order checkout page","1. Compare the price on the Liqpay payment page with the specified price on the order checkout page","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:56","Functional",""
+"T10","Payment with a credit card with valid data","Ruslan Gudenko"," None","C11","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+ The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in the ""CVV2"" field
+Expected Result:
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+The confirmation code is successfully entered in the ""Enter your code below"" field
+6. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. Click on the ""Back to website"" link
+Expected Result:
+The user redirects to the main page","1. Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+ The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in the ""CVV2"" field
+---
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Passed
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Passed
+6. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Passed
+7. Click on the ""Back to website"" link
+---
+The user redirects to the main page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.","1. The card number is successfully entered in the ""Card number"" field
+2.  The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. The confirmation code is successfully entered in the ""Enter your code below"" field
+6. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. The user redirects to the main page","1. The card number is successfully entered in the ""Card number"" field
+2.  The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. The confirmation code is successfully entered in the ""Enter your code below"" field
+6. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. The user redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Failed","1. Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in the ""CVV2"" field
+4. Click on the ""Pay"" button
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+6. Click the ""Submit"" button
+7. Click on the ""Back to website"" link","1. Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in the ""CVV2"" field
+4. Click on the ""Pay"" button
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+6. Click the ""Submit"" button
+7. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 18:30","Functional",""
+"T10","Payment with a credit card with valid data","Ruslan Gudenko"," None","C11","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+ The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in the ""CVV2"" field
+Expected Result:
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+The confirmation code is successfully entered in the ""Enter your code below"" field
+6. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. Click on the ""Back to website"" link
+Expected Result:
+The user redirects to the main page","1. Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+ The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in ""CVV2"" field
+---
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Passed
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Passed
+6. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Passed
+7. Click on the ""Back to website"" link
+---
+The user redirects to the main page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.","1. The card number is successfully entered in the ""Card number"" field
+2.  The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. The confirmation code is successfully entered in the ""Enter your code below"" field
+6. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. The user redirects to the main page","1. The card number is successfully entered in the ""Card number"" field
+2.  The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. The confirmation code is successfully entered in the ""Enter your code below"" field
+6. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. The user redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Failed","1. Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click on the ""Pay"" button
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+6. Click the ""Submit"" button
+7. Click on the ""Back to website"" link","1. Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in the ""CVV2"" field
+4. Click on the ""Pay"" button
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+6. Click the ""Submit"" button
+7. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 17:54","Functional",""
+"T10","Payment with a credit card with valid data","Ruslan Gudenko"," None","C11","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Passed","","1. Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+ The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in the ""CVV2"" field
+Expected Result:
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+The confirmation code is successfully entered in the ""Enter your code below"" field
+6. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. Click on the ""Back to website"" link
+Expected Result:
+The user redirects to the main page","1. Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+ The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in ""CVV2"" field
+---
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Passed
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Passed
+6. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Passed
+7. Click on the ""Back to website"" link
+---
+The user redirects to the main page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.","1. The card number is successfully entered in the ""Card number"" field
+2.  The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. The confirmation code is successfully entered in the ""Enter your code below"" field
+6. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. The user redirects to the main page","1. The card number is successfully entered in the ""Card number"" field
+2.  The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+5. The confirmation code is successfully entered in the ""Enter your code below"" field
+6. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+7. The user redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed","1. Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click on the ""Pay"" button
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+6. Click the ""Submit"" button
+7. Click on the ""Back to website"" link","1. Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in the ""CVV2"" field
+4. Click on the ""Pay"" button
+5. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+6. Click the ""Submit"" button
+7. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:07","Functional",""
+"T11","Decline payment","Ruslan Gudenko"," None","C12","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. 	
+Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+Expected Result:
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click the ""Decline payment"" link
+Expected Result:
+The ""Decline payment"" link is clicked. The user is returned to the main page","1. 	
+Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in ""CVV2"" field
+---
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click the ""Decline payment"" link
+---
+The ""Decline payment"" link is clicked. The user is returned to the main page
+---
+Failed","1. 
+2. 
+3. 
+4.","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Decline payment"" link is clicked. The user is returned to the main page","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Decline payment"" link is clicked. The user is returned to the main page","1. Passed
+2. Passed
+3. Passed
+4. Failed","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click the ""Decline payment"" link","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click the ""Decline payment"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 18:30","Functional",""
+"T11","Decline payment","Ruslan Gudenko"," None","C12","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. 	
+Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+Expected Result:
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click the ""Decline payment"" link
+Expected Result:
+The ""Decline payment"" link is clicked. The user is returned to the main page","1. 	
+Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in ""CVV2"" field
+---
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click the ""Decline payment"" link
+---
+The ""Decline payment"" link is clicked. The user is returned to the main page
+---
+Failed","1. 
+2. 
+3. 
+4.","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Decline payment"" link is clicked. The user is returned to the main page","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Decline payment"" link is clicked. The user is returned to the main page","1. Passed
+2. Passed
+3. Passed
+4. Failed","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click the ""Decline payment"" link","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click the ""Decline payment"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 17:56","Functional",""
+"T11","Decline payment","Ruslan Gudenko"," None","C12","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Passed","","1. 	
+Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+Expected Result:
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click the ""Decline payment"" link
+Expected Result:
+The ""Decline payment"" link is clicked. The user is returned to the main page","1. 	
+Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in ""CVV2"" field
+---
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click the ""Decline payment"" link
+---
+The ""Decline payment"" link is clicked. The user is returned to the main page
+---
+Passed","1. 
+2. 
+3. 
+4.","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Decline payment"" link is clicked. The user is returned to the main page","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. The ""Decline payment"" link is clicked. The user is returned to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click the ""Decline payment"" link","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click the ""Decline payment"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:08","Functional",""
+"T12","QR-code for payment with Privat 24 verification","Ruslan Gudenko"," None","C13","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing
+
+","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Open privat24 application on your smartphone.
+Expected Result:
+Privat24 application is successfully opened
+2. Point the camera at the QR code on the Liqpay payment page
+Expected Result:
+The QA code is successfully scanned. The count of available credit card is shown
+3. Select credit card 
+Expected Result:
+The credit card is selected
+4. Confirm payment
+Expected Result:
+The payment is successfully confirmed.
+5. Click on the ""Back to website"" link
+Expected Result:
+The user redirects to the main page","1. Open privat24 application on your smartphone.
+---
+Privat24 application is successfully opened
+---
+Passed
+2. Point the camera at the QR code on the Liqpay payment page
+---
+The QA code is successfully scanned. The count of available credit card is shown
+---
+Passed
+3. Select credit card 
+---
+The credit card is selected
+---
+Passed
+4. Confirm payment
+---
+The payment is successfully confirmed.
+---
+Passed
+5. Click on the ""Back to website"" link
+---
+The user redirects to the main page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5.","1. Privat24 application is successfully opened
+2. The QA code is successfully scanned. The count of available credit card is shown
+3. The credit card is selected
+4. The payment is successfully confirmed.
+5. The user redirects to the main page","1. Privat24 application is successfully opened
+2. The QA code is successfully scanned. The count of available credit card is shown
+3. The credit card is selected
+4. The payment is successfully confirmed.
+5. The user redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed","1. Open privat24 application on your smartphone.
+2. Point the camera at the QR code on the Liqpay payment page
+3. Select credit card 
+4. Confirm payment
+5. Click on the ""Back to website"" link","1. Open privat24 application on your smartphone.
+2. Point the camera at the QR code on the Liqpay payment page
+3. Select credit card 
+4. Confirm payment
+5. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 18:31","Functional",""
+"T12","QR-code for payment with Privat 24 verification","Ruslan Gudenko"," None","C13","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing
+
+","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Open privat24 application on your smartphone.
+Expected Result:
+Privat24 application is successfully opened
+2. Point the camera at the QR code on the Liqpay payment page
+Expected Result:
+The QA code is successfully scanned. The count of available credit card is shown
+3. Select credit card 
+Expected Result:
+The credit card is selected
+4. Confirm payment
+Expected Result:
+The payment is successfully confirmed.
+5. Click on the ""Back to website"" link
+Expected Result:
+The user redirects to the main page","1. Open privat24 application on your smartphone.
+---
+Privat24 application is successfully opened
+---
+Passed
+2. Point the camera at the QR code on the Liqpay payment page
+---
+The QA code is successfully scanned. The count of available credit card is shown
+---
+Passed
+3. Select credit card 
+---
+The credit card is selected
+---
+Passed
+4. Confirm payment
+---
+The payment is successfully confirmed. User return to the main page
+---
+Failed","1. 
+2. 
+3. 
+4.","1. Privat24 application is successfully opened
+2. The QA code is successfully scanned. The count of available credit card is shown
+3. The credit card is selected
+4. The payment is successfully confirmed. User return to the main page","1. Privat24 application is successfully opened
+2. The QA code is successfully scanned. The count of available credit card is shown
+3. The credit card is selected
+4. The payment is successfully confirmed.
+5. The user redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Failed","1. Open privat24 application on your smartphone.
+2. Point the camera at the QR code on the Liqpay payment page
+3. Select credit card 
+4. Confirm payment","1. Open privat24 application on your smartphone.
+2. Point the camera at the QR code on the Liqpay payment page
+3. Select credit card 
+4. Confirm payment
+5. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 17:13","Functional",""
+"T13","Payment with Privat24","Ruslan Gudenko"," None","C14","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Click on the ""24 Pay"" button
+Expected Result:
+The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+Expected Result:
+The number is successfully entered. A personal account is opened. 
+3. Select one of the available credit cards
+Expected Result:
+The credit card is selected
+4. Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The payment is successful 
+5. Click on the ""Back to website"" link
+Expected Result:
+The user redirects to the main page","1. Click on the ""24 Pay"" button
+---
+The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+---
+Passed
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+---
+The number is successfully entered. A personal account is opened. 
+---
+Passed
+3. Select one of the available credit cards
+---
+The credit card is selected
+---
+Passed
+4. Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The payment is successful 
+---
+Passed
+5. Click on the ""Back to website"" link
+---
+The user redirects to the main page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5.","1. The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+2. The number is successfully entered. A personal account is opened. 
+3. The credit card is selected
+4. The ""Pay"" button is clicked. The payment is successful 
+5. The user redirects to the main page","1. The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+2. The number is successfully entered. A personal account is opened. 
+3. The credit card is selected
+4. The ""Pay"" button is clicked. The payment is successful 
+5. The user redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed","1. Click on the ""24 Pay"" button
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+3. Select one of the available credit cards
+4. Click on the ""Pay"" button
+5. Click on the ""Back to website"" link","1. Click on the ""24 Pay"" button
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+3. Select one of the available credit cards
+4. Click on the ""Pay"" button
+5. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 18:31","Functional",""
+"T13","Payment with Privat24","Ruslan Gudenko"," None","C14","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Click on the ""24 Pay"" button
+Expected Result:
+The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+Expected Result:
+The number is successfully entered. A personal account is opened. 
+3. Select one of the available credit cards
+Expected Result:
+The credit card is selected
+4. Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The payment is successful 
+5. Click on the ""Back to website"" link
+Expected Result:
+The user redirects to the main page","1. Click on the ""24 Pay"" button
+---
+The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+---
+Passed
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+---
+The number is successfully entered. A personal account is opened. 
+---
+Passed
+3. Select one of the available credit cards
+---
+The credit card is selected
+---
+Passed
+4. Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The payment is successful. User return to the main page
+---
+Failed","1. 
+2. 
+3. 
+4.","1. The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+2. The number is successfully entered. A personal account is opened. 
+3. The credit card is selected
+4. The ""Pay"" button is clicked. The payment is successful. User return to the main page","1. The ""24 Pay"" button is successfully clicked. Login Privat 24 page is opened
+2. The number is successfully entered. A personal account is opened. 
+3. The credit card is selected
+4. The ""Pay"" button is clicked. The payment is successful 
+5. The user redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Failed","1. Click on the ""24 Pay"" button
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+3. Select one of the available credit cards
+4. Click on the ""Pay"" button","1. Click on the ""24 Pay"" button
+2. Enter a valid phone number in the ""Login to Privat24"" form for authorization
+3. Select one of the available credit cards
+4. Click on the ""Pay"" button
+5. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 17:14","Functional",""
+"T14","Payment with a ""GPay""","Ruslan Gudenko"," None","C15","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Click on the ""Pay with G Pay"" button
+Expected Result:
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. Select any credit card from a list
+Expected Result:
+The credit card is selected
+3. Click the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. Click on the ""Back to website"" link
+Expected Result:
+The user returns to the main page","1. Click on the ""Pay with G Pay"" button
+---
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+---
+Passed
+2. Select any credit card from a list
+---
+The credit card is selected
+---
+Passed
+3. Click the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Passed
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Passed
+5. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Passed
+6. Click on the ""Back to website"" link
+---
+The user returns to the main page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5. 
+6.","1. The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. The user returns to the main page","1. The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. The user returns to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Failed","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Pay"" button
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Pay"" button
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 18:31","Functional",""
+"T14","Payment with a ""GPay""","Ruslan Gudenko"," None","C15","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Failed","","1. Click on the ""Pay with G Pay"" button
+Expected Result:
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. Select any credit card from a list
+Expected Result:
+The credit card is selected
+3. Click the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. Click on the ""Back to website"" link
+Expected Result:
+The user returns to the main page","1. Click on the ""Pay with G Pay"" button
+---
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+---
+Passed
+2. Select any credit card from a list
+---
+The credit card is selected
+---
+Passed
+3. Click the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Passed
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Passed
+5. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Passed
+6. Click on the ""Back to website"" link
+---
+The user returns to the main page
+---
+Failed","1. 
+2. 
+3. 
+4. 
+5. 
+6.","1. The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. The user returns to the main page","1. The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. The user returns to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Failed","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Pay"" button
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Pay"" button
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 17:54","Functional",""
+"T14","Payment with a ""GPay""","Ruslan Gudenko"," None","C15","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Passed","","1. Click on the ""Pay with G Pay"" button
+Expected Result:
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. Select any credit card from a list
+Expected Result:
+The credit card is selected
+3. Click the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. Click on the ""Back to website"" link
+Expected Result:
+The user returns to the main page","1. Click on the ""Pay with G Pay"" button
+---
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+---
+Untested
+2. Select any credit card from a list
+---
+The credit card is selected
+---
+Passed
+3. Click the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Passed
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Passed
+5. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Passed
+6. Click on the ""Back to website"" link
+---
+The user returns to the main page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5. 
+6.","1. The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. The user returns to the main page","1. The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. The user returns to the main page","1. Untested
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Pay"" button
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Pay"" button
+4. 	
+Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:11","Functional",""
+"T15","Verify that a user can select another method for payment","Ruslan Gudenko"," None","C16","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Passed","","1. Click on the ""Another method"" link
+Expected Result:
+The ""Another method"" link is clicked. The pop-up ""Payment method"" window is opened
+2. Click on any one of the menu items
+Expected Result:
+One of the menu items is clicked. The selected menu item for payment is opened on the screen. User can continue the payment process","1. Click on the ""Another method"" link
+---
+The ""Another method"" link is clicked. The pop-up ""Payment method"" window is opened
+---
+Passed
+2. Click on any one of the menu items
+---
+One of the menu items is clicked. The selected menu item for payment is opened on the screen. User can continue the payment process
+---
+Passed","1. 
+2.","1. The ""Another method"" link is clicked. The pop-up ""Payment method"" window is opened
+2. One of the menu items is clicked. The selected menu item for payment is opened on the screen. User can continue the payment process","1. The ""Another method"" link is clicked. The pop-up ""Payment method"" window is opened
+2. One of the menu items is clicked. The selected menu item for payment is opened on the screen. User can continue the payment process","1. Passed
+2. Passed","1. Click on the ""Another method"" link
+2. Click on any one of the menu items","1. Click on the ""Another method"" link
+2. Click on any one of the menu items","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:09","Functional",""
+"T16","Verify that an error message is shown when the user make payment with a credit card with invalid data","Ruslan Gudenko"," None","C17","","","","600s","","600s","","","","","","1) Liqpay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","Liqpay","1","","Payments > Liqpay","Passed","","1. Enter an invalid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+Expected Result:
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click on the ""Pay"" button
+Expected Result:
+An error message ""Specify the correct card numbers"" appears. User stays on Liqpay payment page","1. Enter an invalid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in ""CVV2"" field
+---
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click on the ""Pay"" button
+---
+An error message ""Specify the correct card numbers"" appears. User stays on Liqpay payment page
+---
+Passed","1. 
+2. 
+3. 
+4.","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. An error message ""Specify the correct card numbers"" appears. User stays on Liqpay payment page","1. The card number is successfully entered in the ""Card number"" field
+2. The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The CVV2 number is successfully entered in the ""CVV2"" field
+4. An error message ""Specify the correct card numbers"" appears. User stays on Liqpay payment page","1. Passed
+2. Passed
+3. Passed
+4. Passed","1. Enter an invalid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click on the ""Pay"" button","1. Enter an invalid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click on the ""Pay"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:09","Functional",""
+"T23","Verify that the price for items on WayForPay payment page matches with price on the order checkout page","Ruslan Gudenko"," None","C24","","","","300s","","300s","","","","","","1) WayForPay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Passed","","1. Compare the price on the WayForPay payment page with the specified price on the order checkout page
+Expected Result:
+The price on the WayForPay page and order checkout page are matched","1. Compare the price on the WayForPay payment page with the specified price on the order checkout page
+---
+The price on the WayForPay page and order checkout page are matched
+---
+Passed","1.","1. The price on the WayForPay page and order checkout page are matched","1. The price on the WayForPay page and order checkout page are matched","1. Passed","1. Compare the price on the WayForPay payment page with the specified price on the order checkout page","1. Compare the price on the WayForPay payment page with the specified price on the order checkout page","Test Case (Steps)","Ruslan Gudenko","06.02.2021 0:57","Functional",""
+"T17","Payment with a credit card with valid data","Ruslan Gudenko"," None","C18","","","","600s","","600s","","","","","","1) WayForPay payment page is opened
+
+Tes design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Failed","","1. 	
+Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+Expected Result:
+The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. Enter valid CVV2 number in the ""CVV2"" field
+Expected Result:
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+The confirmation code is successfully entered in the ""Enter your code below"" field
+7. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. Click on the ""Back to website"" link
+Expected Result:
+User redirects to the main page","1. 	
+Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid the ""Name of owner"" field
+---
+The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+---
+Passed
+4. Enter valid CVV2 number in the ""CVV2"" field
+---
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+5. 	
+Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Failed
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Blocked
+7. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Blocked
+8. Click on the ""Back to website"" link
+---
+User redirects to the main page
+---
+Blocked","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8.","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. The confirmation code is successfully entered in the ""Enter your code below"" field
+7. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. User redirects to the main page","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. The confirmation code is successfully entered in the ""Enter your code below"" field
+7. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. User redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Failed
+6. Blocked
+7. Blocked
+8. Blocked","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+4. Enter valid CVV2 number in the ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+7. Click the ""Submit"" button
+8. Click on the ""Back to website"" link","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+4. Enter valid CVV2 number in the ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+7. Click the ""Submit"" button
+8. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 19:18","Functional",""
+"T17","Payment with a credit card with valid data","Ruslan Gudenko"," None","C18","","","","600s","","600s","","","","","","1) WayForPay payment page is opened
+
+Tes design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Failed","","1. 	
+Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+Expected Result:
+The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. Enter valid CVV2 number in the ""CVV2"" field
+Expected Result:
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+The confirmation code is successfully entered in the ""Enter your code below"" field
+7. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. Click on the ""Back to website"" link
+Expected Result:
+User redirects to the main page","1. 	
+Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Untested
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Untested
+3. Enter valid the ""Name of owner"" field
+---
+The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+---
+Untested
+4. Enter valid CVV2 number in ""CVV2"" field
+---
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Untested
+5. 	
+Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Untested
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Untested
+7. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Untested
+8. Click on the ""Back to website"" link
+---
+User redirects to the main page
+---
+Untested","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8.","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. The confirmation code is successfully entered in the ""Enter your code below"" field
+7. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. User redirects to the main page","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. The confirmation code is successfully entered in the ""Enter your code below"" field
+7. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. User redirects to the main page","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested
+6. Untested
+7. Untested
+8. Untested","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+4. Enter valid CVV2 number in ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+7. Click the ""Submit"" button
+8. Click on the ""Back to website"" link","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+4. Enter valid CVV2 number in the ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+7. Click the ""Submit"" button
+8. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:04","Functional",""
+"T17","Payment with a credit card with valid data","Ruslan Gudenko"," None","C18","","","","600s","","600s","","","","","","1) WayForPay payment page is opened
+
+Tes design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Passed","","1. 	
+Enter a valid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+Expected Result:
+The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. Enter valid CVV2 number in the ""CVV2"" field
+Expected Result:
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+Expected Result:
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+The confirmation code is successfully entered in the ""Enter your code below"" field
+7. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. Click on the ""Back to website"" link
+Expected Result:
+User redirects to the main page","1. 	
+Enter a valid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid the ""Name of owner"" field
+---
+The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+---
+Passed
+4. Enter valid CVV2 number in ""CVV2"" field
+---
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+5. 	
+Click on the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Passed
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Passed
+7. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+---
+Passed
+8. Click on the ""Back to website"" link
+---
+User redirects to the main page
+---
+Passed","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8.","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. The confirmation code is successfully entered in the ""Enter your code below"" field
+7. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. User redirects to the main page","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. The ""Name of owner"" field is successfully entered in the ""Name of owner"" field
+4. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+5. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+6. The confirmation code is successfully entered in the ""Enter your code below"" field
+7. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+8. User redirects to the main page","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+4. Enter valid CVV2 number in ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+7. Click the ""Submit"" button
+8. Click on the ""Back to website"" link","1. 	
+Enter a valid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid the ""Name of owner"" field
+4. Enter valid CVV2 number in the ""CVV2"" field
+5. 	
+Click on the ""Pay"" button
+6. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+7. Click the ""Submit"" button
+8. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:03","Functional",""
+"T18","Payment with a ""GPay""","Ruslan Gudenko"," None","C19","","","","600s","","600s","","","","","","1) WayForPay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Failed","","1. Click on the ""Pay with G Pay"" button
+Expected Result:
+	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. Select any credit card from a list
+Expected Result:
+The credit card is selected
+3. Click the ""Continue"" button
+Expected Result:
+The ""Continue"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. Click on the ""Back to website"" link
+Expected Result:
+	
+User redirects to the main page","1. Click on the ""Pay with G Pay"" button
+---
+	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+---
+Passed
+2. Select any credit card from a list
+---
+The credit card is selected
+---
+Passed
+3. Click the ""Continue"" button
+---
+The ""Continue"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Failed
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Blocked
+5. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen. The user automatically return to the main page
+---
+Blocked","1. 
+2. 
+3. 
+4. 
+5.","1. 	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Continue"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen. The user automatically return to the main page","1. 	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Continue"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. 	
+User redirects to the main page","1. Passed
+2. Passed
+3. Failed
+4. Blocked
+5. Blocked","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Continue"" button
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Continue"" button
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 19:20","Functional",""
+"T18","Payment with a ""GPay""","Ruslan Gudenko"," None","C19","","","","600s","","600s","","","","","","1) WayForPay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Failed","","1. Click on the ""Pay with G Pay"" button
+Expected Result:
+	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. Select any credit card from a list
+Expected Result:
+The credit card is selected
+3. Click the ""Continue"" button
+Expected Result:
+The ""Continue"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+Expected Result:
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. Click the ""Submit"" button
+Expected Result:
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. Click on the ""Back to website"" link
+Expected Result:
+	
+User redirects to the main page","1. Click on the ""Pay with G Pay"" button
+---
+	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+---
+Untested
+2. Select any credit card from a list
+---
+The credit card is selected
+---
+Untested
+3. Click the ""Pay"" button
+---
+The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+---
+Untested
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+---
+	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+---
+Untested
+5. Click the ""Submit"" button
+---
+The ""Submit"" button is clicked. The success message about successful payment appeared on the screen. The user automatically return to the main page
+---
+Untested","1. 
+2. 
+3. 
+4. 
+5.","1. 	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Pay"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen. The user automatically return to the main page","1. 	
+The ""Pay with G Pay"" button is clicked. The quantity of available credit cards of user's Google account is shown
+2. The credit card is selected
+3. The ""Continue"" button is clicked. The ""Purchase authentication"" page is open. SMS with confirmation code on the user's phone number is received that was used with credit card registration
+4. 	
+The confirmation code is successfully entered in the ""Enter your code below"" field
+5. The ""Submit"" button is clicked. The success message about successful payment appeared on the screen
+6. 	
+User redirects to the main page","1. Untested
+2. Untested
+3. Untested
+4. Untested
+5. Untested","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Pay"" button
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button","1. Click on the ""Pay with G Pay"" button
+2. Select any credit card from a list
+3. Click the ""Continue"" button
+4. Enter received confirmation code from SMS in the ""Enter your code below"" 5 digits
+5. Click the ""Submit"" button
+6. Click on the ""Back to website"" link","Test Case (Steps)","Ruslan Gudenko","06.02.2021 17:59","Functional",""
+"T19","Verify that filled in ""Email""  and ""Phone"" fields on the order checkout page are present on WayForPay payment page","Ruslan Gudenko"," None","C20","","","","180s","","180s","","","","","","1) WayForPay payment page is opened
+
+Test design technique: end to end testing","Medium","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Passed","","1. Compare Email in ""Email"" field on WayForPay payment Page with specified Email from ""Email"" field from the order checkout page
+Expected Result:
+The Email from the WayForPay page and order checkout page are matched
+2. Compare Phone in ""Phone"" field on WayForPay payment Page with specified Phone from ""Phone"" field from the order checkout page 
+Expected Result:
+The Phone from the WayForPay page and order checkout page are matched","1. Compare Email in ""Email"" field on WayForPay payment Page with specified Email from ""Email"" field from the order checkout page
+---
+The Email from the WayForPay page and order checkout page are matched
+---
+Passed
+2. Compare Phone in ""Phone"" field on WayForPay payment Page with specified Phone from ""Phone"" field from the order checkout page 
+---
+The Phone from the WayForPay page and order checkout page are matched
+---
+Passed","1. 
+2.","1. The Email from the WayForPay page and order checkout page are matched
+2. The Phone from the WayForPay page and order checkout page are matched","1. The Email from the WayForPay page and order checkout page are matched
+2. The Phone from the WayForPay page and order checkout page are matched","1. Passed
+2. Passed","1. Compare Email in ""Email"" field on WayForPay payment Page with specified Email from ""Email"" field from the order checkout page
+2. Compare Phone in ""Phone"" field on WayForPay payment Page with specified Phone from ""Phone"" field from the order checkout page","1. Compare Email in ""Email"" field on WayForPay payment Page with specified Email from ""Email"" field from the order checkout page
+2. Compare Phone in ""Phone"" field on WayForPay payment Page with specified Phone from ""Phone"" field from the order checkout page","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:11","Functional",""
+"T20","Verify that a user can select another method for payment","Ruslan Gudenko"," None","C21","","","","600s","","600s","","","","","","1) WayForPay payment page is opened
+
+","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Passed","","1. Click on the ""Another method of payment"" link
+Expected Result:
+The ""Another method of payment"" link is clicked. The pop-up with privat 24 and  masterpass methods of pay is opened
+2. Click on any one of the menu items 
+Expected Result:
+One of the menu items is clicked. The selected menu item for payment is shown on the screen. User can continue the payment process","1. Click on the ""Another method of payment"" link
+---
+The ""Another method of payment"" link is clicked. The pop-up with privat 24 and  masterpass methods of pay is opened
+---
+Passed
+2. Click on any one of the menu items 
+---
+One of the menu items is clicked. The selected menu item for payment is shown on the screen. User can continue the payment process
+---
+Passed","1. 
+2.","1. The ""Another method of payment"" link is clicked. The pop-up with privat 24 and  masterpass methods of pay is opened
+2. One of the menu items is clicked. The selected menu item for payment is shown on the screen. User can continue the payment process","1. The ""Another method of payment"" link is clicked. The pop-up with privat 24 and  masterpass methods of pay is opened
+2. One of the menu items is clicked. The selected menu item for payment is shown on the screen. User can continue the payment process","1. Passed
+2. Passed","1. Click on the ""Another method of payment"" link
+2. Click on any one of the menu items","1. Click on the ""Another method of payment"" link
+2. Click on any one of the menu items","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:11","Functional",""
+"T21","Verify that an error message is shown when the user make payment with a credit card with invalid data","Ruslan Gudenko"," None","C22","","","","600s","","600s","","","","","","1) WayForPay payment page is opened
+
+Test design technique: end to end testing","High","","Canny Store (Purchase process with payments)","","R1","WayForPay","1","","Payments > WayForPay","Passed","","1. Enter an invalid credit card number in the ""Card number"" field
+Expected Result:
+The card number is successfully entered in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+Expected Result:
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+Expected Result:
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. Click on the ""Pay"" button
+Expected Result:
+	
+An error message ""Wrong card"" appears. User stays on WayForPay payment page","1. Enter an invalid credit card number in the ""Card number"" field
+---
+The card number is successfully entered in the ""Card number"" field
+---
+Passed
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+---
+	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+---
+Passed
+3. Enter valid CVV2 number in ""CVV2"" field
+---
+	
+The CVV2 number is successfully entered in the ""CVV2"" field
+---
+Passed
+4. Click on the ""Pay"" button
+---
+	
+An error message ""Specify the correct card numbers"" appears. User stays on WayForPay payment page
+---
+Passed","1. 
+2. 
+3. 
+4.","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. 	
+An error message ""Specify the correct card numbers"" appears. User stays on WayForPay payment page","1. The card number is successfully entered in the ""Card number"" field
+2. 	
+The Expiration date of the card is successfully entered in the ""Expiration"" field
+3. 	
+The CVV2 number is successfully entered in the ""CVV2"" field
+4. 	
+An error message ""Wrong card"" appears. User stays on WayForPay payment page","1. Passed
+2. Passed
+3. Passed
+4. Passed","1. Enter an invalid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click on the ""Pay"" button","1. Enter an invalid credit card number in the ""Card number"" field
+2. Enter the valid expiration date of the card in the ""Expiration"" field
+3. Enter valid CVV2 number in ""CVV2"" field
+4. Click on the ""Pay"" button","Test Case (Steps)","Ruslan Gudenko","06.02.2021 1:12","Functional",""
