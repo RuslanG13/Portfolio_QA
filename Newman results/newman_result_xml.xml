@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Google Maps API" tests="5" time="8.268">
+  <testsuite name="Add Place" id="550429b7-dcda-4ad8-adac-b482508ea747" timestamp="2021-06-13T18:42:00.803Z" tests="2" failures="0" errors="0" time="0.751">
+    <testcase name="Status code is 200" time="0.751" classname="GoogleMapsApi"/>
+    <testcase name="Set variables" time="0.751" classname="GoogleMapsApi"/>
+  </testsuite>
+  <testsuite name="Get Place" id="955bff6d-2fe1-4da3-bd0d-cd9315ce3b7b" timestamp="2021-06-13T18:42:00.803Z" tests="1" failures="0" errors="0" time="1.719">
+    <testcase name="Address is correct" time="1.681" classname="GoogleMapsApi"/>
+    <testcase name="Verification of status code" time="1.681" classname="GoogleMapsApi"/>
+  </testsuite>
+  <testsuite name="Update PLace" id="ac49bb43-f56f-4b10-a3a6-af259df3680b" timestamp="2021-06-13T18:42:00.803Z" tests="2" failures="0" errors="0" time="2.033">
+    <testcase name="Status code is 200" time="2.033" classname="GoogleMapsApi"/>
+    <testcase name="Address successfully updated" time="2.033" classname="GoogleMapsApi"/>
+  </testsuite>
+  <testsuite name="Remove Place" id="b9d7f2da-6d5b-49ab-9ad4-24af77f9b3c1" timestamp="2021-06-13T18:42:00.803Z" tests="1" failures="0" errors="0" time="2.046">
+    <testcase name="Status code is 200" time="2.046" classname="GoogleMapsApi"/>
+  </testsuite>
+</testsuites>
